@@ -1,6 +1,7 @@
 nightwatchProps.js
 npm-debug.log
 selenium-debug.log
+package-lock.json
 /tests-output
 /test-outputs
 /tests_output
