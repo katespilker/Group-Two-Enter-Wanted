@@ -29,6 +29,24 @@ module.exports = {
         results: 'span[name"queryTitle"]',
         queryBody: 'span[name="queryBody"]',
 
+        dropDownBoxes: {
+            sexField: {
+                female: 'option[value="F"]',
+                male: 'option[value="M"]',
+                other: 'option[value="O"]',
+                unknown: 'option[value="U"]',
+            },
+            raceField: {
+                asian: 'option[value="A"]',
+                black: 'option[value="B"]',
+                hispanic: 'option[value="H"]',
+                americanIndian: 'option[value="I"]',
+                white: 'option[value="W"]',
+                unknown: 'option[value="U"]',
+
+
+            },
+        }
     },
 
     fields: {
