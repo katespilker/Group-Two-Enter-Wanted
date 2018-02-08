@@ -74,8 +74,8 @@ module.exports = {
     },
 
     buttons: {
-        menuIcon: 'div[class="bm-burger-button]',
-        crossButton: 'div[class="bm-cross-button]',
+        menuIcon: 'div[class="bm-burger-button"]',
+        crossButton: 'div[class="bm-cross-button"]',
         homeOption: 'p[name="homeOption"]',
         enterOption: 'p[name="enterOption"]',
         modifyOption: 'p[name="modifyOption"]',
