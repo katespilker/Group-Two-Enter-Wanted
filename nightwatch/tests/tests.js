@@ -21,5 +21,16 @@ module.exports = {
             .click(selectors.fields.sexInput, data.WQ27.sex)
 
 
+    },
+    "WQ26" : browser => {
+        browser
+        .click(selectors.buttons.menuIcon)
+        .click(selectors.buttons.enterOption)
+        .setValue(selectors.fields.hdrInput, data.WQ26.hdr)
+        .setValue(selectors.fields.mkeInput, data.WQ26.mke)
+        .setValue(selectors.fields.oriInput, data.WQ26.oai)
+        .setValue(selectors.fields.namInput, data.WQ26.nam)
+        .click(selectors., data.WQ26.sex)
+
     }
 }
