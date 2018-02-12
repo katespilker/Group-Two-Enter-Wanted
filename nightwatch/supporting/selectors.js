@@ -26,9 +26,16 @@ module.exports = {
         queryTitle: 'span[name"queryTitle"]',
         errorHeader: 'span[id="validHeader"]',
         errorMessage: 'li[class="errorMessage"]',
+<<<<<<< HEAD
         results: `td[class='results']`,
         queryBody: 'span[name="queryBody"]',
     },
+=======
+        results: 'td[class="results"]',
+        queryBody: 'span[name="queryBody"]',
+        validHeader: 'h4[id="validHeader"]',
+        errorList: 'ul[id="errorlist"]',
+>>>>>>> master
 
     dropDownBoxes: {
         sexField: {
