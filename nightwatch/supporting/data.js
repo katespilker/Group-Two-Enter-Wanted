@@ -277,6 +277,26 @@ module.exports = {
         wid: '123',
         res: '',
         dat: ''
-    }
+    },
+    WQ29 : {
+        //Enter Wanted
+        hdr: "Johnson1234567890$#",
+        mke: "Ab*&",
+        oai: "J8765kI90",
+        nam: "MR. Bingo Big Daddy $$$!!!!!!!",
+        sex: "Unknown",
+        rac: "American Indian / Alaskan Native",
+        hgt: "190",
+        wgt: "999",
+        hai: "blackerish",
+        off: "123456789Zsw@#$",
+        dow: "02/07/2018",
+        oln: "aBcdef!23$567896Hnj*",
+        ols: "TX",
+        old: "01/31/2023",
+        lic: "12345Hui",
+        lis: "HI",
+        lid: "04/06/2041",
+    },
 
 }
