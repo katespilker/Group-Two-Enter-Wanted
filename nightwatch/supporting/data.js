@@ -1,14 +1,15 @@
 module.exports = {
-    //Enter Wanted
+    //Enter Wanted and Modify Wanted 
     WQ27 : {
+        wid: '1234567890', //modify wanted only
         hdr: '123abc!@#',
         mke: 'A#+',
         ori: 'def456ghi',
         nam: 'A1#',
         sex: 'unknown',
         rac: 'unknown',
-        hgt: '000',
-        wgt: '0',
+        hgt: '001',
+        wgt: '1',
         hai: 'red',
         off: 'AB12#',
         dow: '01/01/1900',
@@ -19,29 +20,10 @@ module.exports = {
         lis: 'HI',
         lid: '01/01/1900'
     },
-    //Modify Wanted (same Test Case-just added 0 at the end so we can distinguish the difference)
-    WQ270 : {
-        wid: '1234567890',
-        hdr: '123abc!@#',
-        mke: 'A#+',
-        ori: 'def456ghi',
-        nam: 'A1#',
-        sex: 'unknown',
-        rac: 'unknown',
-        hgt: '000',
-        wgt: '0',
-        hai: 'red',
-        off: 'AB12#',
-        dow: '01/01/1900',
-        oln: '1',
-        ols: 'UT',
-        old: '01/01/1900',
-        lic: 'AB123',
-        lis: 'HI',
-        lid: '01/01/1900'
-    },
-    //Enter Wanted
+    
+    //Enter Wanted and Modify Wanted 
     WQ211 : {
+        wid: '123', //modify wanted only
         hdr: 'Header',
         mke: '#',
         ori: 'def456gh',
@@ -55,56 +37,15 @@ module.exports = {
         dow: '01/01/1899',
         oln: '',
         ols: 'A',
-        old: '',
+        old: '01/01/1899',
         lic: 'AB12',
         lis: 'H',
         lid: '01/01/1899'
     },
-    //Modify Wanted 
-    WQ2110 : {
-        wid: '123',
-        hdr: 'Header',
-        mke: '#',
-        ori: 'def456gh',
-        nam: 'A1',
-        sex: '',
-        rac: '',
-        hgt: '00',
-        wgt: '',
-        hai: 're',
-        off: 'AB12',
-        dow: '01/01/1899',
-        oln: '',
-        ols: 'A',
-        old: '',
-        lic: 'AB12',
-        lis: 'H',
-        lid: '01/01/1899'
-    },
-    //Enter Wanted
+    //Enter Wanted and Modify Wanted
     WQ229 : {
-        hdr: '',
-        mke: '',
-        ori: '',
-        nam: '',
-        sex: '',
-        rac: '',
-        hgt: '',
-        wgt: '',
-        hai: '',
-        off: '',
-        dow: '',
-        oln: '',
-        ols: '',
-        old: '',
-        lic: '',
-        lis: '',
-        lid: ''
-    },
-    //Modify wanted (WID can't be empty or submit button is disabled.)
-    WQ2290 : {
-        wid: '123',
-        hdr: '',
+        wid: '123', //Modify Wanted only (submit button disabled if this field is left empty)
+        hdr: '123', //(submit button disabled if this field is left empty)
         mke: '',
         ori: '',
         nam: '',

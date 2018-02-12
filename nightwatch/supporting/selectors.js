@@ -26,50 +26,50 @@ module.exports = {
         queryTitle: 'span[name"queryTitle"]',
         errorHeader: 'span[id="validHeader"]',
         errorMessage: 'li[class="errorMessage"]',
-        results: 'span[name"queryTitle"]',
+        results: `td[class='results']`,
         queryBody: 'span[name="queryBody"]',
+    },
 
-        dropDownBoxes: {
-            sexField: {
-                female: 'option[value="F"]',
-                male: 'option[value="M"]',
-                other: 'option[value="O"]',
-                unknown: 'option[value="U"]',
-            },
-            raceField: {
-                asian: 'option[value="A"]',
-                black: 'option[value="B"]',
-                hispanic: 'option[value="H"]',
-                americanIndian: 'option[value="I"]',
-                white: 'option[value="W"]',
-                unknown: 'option[value="U"]',
+    dropDownBoxes: {
+        sexField: {
+            female: 'option[value="F"]',
+            male: 'option[value="M"]',
+            other: 'option[value="O"]',
+            unknown: 'option[value="U"]',
+        },
+        raceField: {
+            asian: 'option[value="A"]',
+            black: 'option[value="B"]',
+            hispanic: 'option[value="H"]',
+            americanIndian: 'option[value="I"]',
+            white: 'option[value="W"]',
+            unknown: 'option[value="U"]',
 
 
-            },
-        }
+        },
     },
 
     fields: {
-        hdrInput: 'input[name=hdrInput"]',
-        mkeInput: 'input[name=mkeInput"]',
-        oriInput: 'input[name=oriInput"]',
-        namInput: 'input[name=namInput"]',
-        sexInput: 'input[name=sexInput"]',
-        racInput: 'input[name=racInput"]',
-        hgtInput: 'input[name=hgtInput"]',
-        wgtInput: 'input[name=wgtInput"]',
-        haiInput: 'input[name=haiInput"]',
-        offInput: 'input[name=offInput"]',
-        dowInput: 'input[name=dowInput"]',
-        olnInput: 'input[name=olnInput"]',
-        olsInput: 'input[name=olsInput"]',
-        oldInput: 'input[name=oldInput"]',
-        licInput: 'input[name=licInput"]',
-        lisInput: 'input[name=lisInput"]',
-        lidInput: 'input[name=lidInput"]',
-        widInput: 'input[name=widInput"]',
-        resInput: 'input[name=resInput"]',
-        datInput: 'input[name=datInput"]',
+        hdrInput: 'input[name="hdrInput"]',
+        mkeInput: 'input[name="mkeInput"]',
+        oriInput: 'input[name="oriInput"]',
+        namInput: 'input[name="namInput"]',
+        sexInput: 'select[name="sexInput"]',
+        racInput: 'select[name="racInput"]',
+        hgtInput: 'input[name="hgtInput"]',
+        wgtInput: 'input[name="wgtInput"]',
+        haiInput: 'input[name="haiInput"]',
+        offInput: 'input[name="offInput"]',
+        dowInput: 'input[name="dowInput"]',
+        olnInput: 'input[name="olnInput"]',
+        olsInput: 'input[name="olsInput"]',
+        oldInput: 'input[name="oldInput"]',
+        licInput: 'input[name="licInput"]',
+        lisInput: 'input[name="lisInput"]',
+        lidInput: 'input[name="lidInput"]',
+        widInput: 'input[name="widInput"]',
+        resInput: 'input[name="resInput"]',
+        datInput: 'input[name="datInput"]',
 
     },
 
@@ -85,5 +85,4 @@ module.exports = {
 
 
     },
-
 }
