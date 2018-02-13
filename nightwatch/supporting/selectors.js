@@ -23,13 +23,16 @@ module.exports = {
         widHeader: 'span[name="widHeader"]',
         resHeader: 'span[name="resHeader"]',
         datHeader: 'span[name="datHeader"]',
-        queryTitle: 'span[name"queryTitle"]',
+        queryTitle: 'span[name="queryTitle"]',
+        validHeader: 'h4[id="validHeader"]',
+        errorList: 'ul[id="errorList"]',
         errorHeader: 'span[id="validHeader"]',
         errorMessage: 'li[class="errorMessage"]',
         results: 'td[class="results"]',
         queryBody: 'span[name="queryBody"]',
         validHeader: 'h4[id="validHeader"]',
         errorList: 'ul[id="errorlist"]',
+
     },
 
     dropDownBoxes: {
@@ -46,7 +49,6 @@ module.exports = {
             americanIndian: 'option[value="I"]',
             white: 'option[value="W"]',
             unknown: 'option[value="U"]',
-
 
         },
     },
