@@ -31,7 +31,7 @@ module.exports = {
         results: 'td[class="results"]',
         queryBody: 'span[name="queryBody"]',
         validHeader: 'h4[id="validHeader"]',
-        errorList: 'ul[id="errorlist"]',
+        errorList: 'ul[id="errorList"]',
 
     },
 
