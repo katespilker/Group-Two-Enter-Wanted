@@ -23,7 +23,9 @@ module.exports = {
         widHeader: 'span[name="widHeader"]',
         resHeader: 'span[name="resHeader"]',
         datHeader: 'span[name="datHeader"]',
-        queryTitle: 'span[name"queryTitle"]',
+        queryTitle: 'span[name="queryTitle"]',
+        validHeader: 'h4[id="validHeader"]',
+        errorList: 'ul[id="errorList"]',
         errorHeader: 'span[id="validHeader"]',
         errorMessage: 'li[class="errorMessage"]',
         results: 'td[class="results"]',
@@ -31,22 +33,24 @@ module.exports = {
         validHeader: 'h4[id="validHeader"]',
         errorList: 'ul[id="errorList"]',
 
-        dropDownBoxes: {
-            sexField: {
-                female: 'option[value="F"]',
-                male: 'option[value="M"]',
-                other: 'option[value="O"]',
-                unknown: 'option[value="U"]',
-            },
-            raceField: {
-                asian: 'option[value="A"]',
-                black: 'option[value="B"]',
-                hispanic: 'option[value="H"]',
-                americanIndian: 'option[value="I"]',
-                white: 'option[value="W"]',
-                unknown: 'option[value="U"]'
-            }
-        }
+    },
+
+    dropDownBoxes: {
+        sexField: {
+            female: 'option[value="F"]',
+            male: 'option[value="M"]',
+            other: 'option[value="O"]',
+            unknown: 'option[value="U"]',
+        },
+        raceField: {
+            asian: 'option[value="A"]',
+            black: 'option[value="B"]',
+            hispanic: 'option[value="H"]',
+            americanIndian: 'option[value="I"]',
+            white: 'option[value="W"]',
+            unknown: 'option[value="U"]',
+
+        },
     },
 
     fields: {
@@ -54,8 +58,8 @@ module.exports = {
         mkeInput: 'input[name="mkeInput"]',
         oriInput: 'input[name="oriInput"]',
         namInput: 'input[name="namInput"]',
-        sexInput: 'input[name="sexInput"]',
-        racInput: 'input[name="racInput"]',
+        sexInput: 'select[name="sexInput"]',
+        racInput: 'select[name="racInput"]',
         hgtInput: 'input[name="hgtInput"]',
         wgtInput: 'input[name="wgtInput"]',
         haiInput: 'input[name="haiInput"]',
@@ -81,6 +85,8 @@ module.exports = {
         modifyOption: 'p[name="modifyOption"]',
         cancelOption: 'p[name="cancelOption"]',
         clearBtn: 'button[id="clearBtn"]',
-        saveBtn: 'button[id="saveBtn"]'
-    }
+        saveBtn: 'button[id="saveBtn"]',
+
+
+    },
 }
