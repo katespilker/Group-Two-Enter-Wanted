@@ -26,9 +26,9 @@ module.exports = {
     "WQ29": browser => {
         browser
             .click(selectors.buttons.menuIcon)
-            .waitForElementVisible(selectors.buttons.enterOption, 1000)
+            .waitForElementVisible(selectors.buttons.enterOption, 3000)
             .click(selectors.buttons.enterOption)
-            .waitForElementVisible(selectors.fields.hdrInput, 1000)
+            .waitForElementVisible(selectors.fields.hdrInput, 3000)
             .setValue(selectors.fields.hdrInput, data.WQ29.hdr)
             .setValue(selectors.fields.mkeInput, data.WQ29.mke)
             .setValue(selectors.fields.oriInput, data.WQ29.oai)
@@ -54,9 +54,9 @@ module.exports = {
     "WQ253": browser => {
         browser
             .click(selectors.buttons.menuIcon)
-            .waitForElementVisible(selectors.buttons.modifyOption, 1000)
+            .waitForElementVisible(selectors.buttons.modifyOption, 3000)
             .click(selectors.buttons.modifyOption)
-            .waitForElementVisible(selectors.fields.widInput, 1000)
+            .waitForElementVisible(selectors.fields.widInput, 3000)
             .click(selectors.fields.widInput)
             .setValue(selectors.fields.widInput, data.WQ253.wid)
             .setValue(selectors.fields.hdrInput, data.WQ253.hdr)
@@ -84,9 +84,9 @@ module.exports = {
     // "WQ259": browser => {
     //     browser
     //         .click(selectors.buttons.menuIcon)
-    //         .waitForElementVisible(selectors.buttons.cancelOption, 1000)
+    //         .waitForElementVisible(selectors.buttons.cancelOption, 3000)
     //         .click(selectors.buttons.cancelOption)
-    //         .waitForElementVisible(selectors.fields.widInput, 1000)
+    //         .waitForElementVisible(selectors.fields.widInput, 3000)
     //         .setValue(selectors.fields.widInput, data.WQ259.wid)
     //         .setValue(selectors.fields.resInput, data.WQ259.res)
     //         .setValue(selectors.fields.datInput, data.WQ259.date)
@@ -96,9 +96,9 @@ module.exports = {
     "WQ234": browser => {
         browser
             .click(selectors.buttons.menuIcon)
-            .waitForElementVisible(selectors.buttons.enterOption, 1000)
+            .waitForElementVisible(selectors.buttons.enterOption, 3000)
             .click(selectors.buttons.enterOption)
-            .waitForElementVisible(selectors.fields.hdrInput, 1000)
+            .waitForElementVisible(selectors.fields.hdrInput, 3000)
             .setValue(selectors.fields.hdrInput, data.WQ234.hdr)
             .setValue(selectors.fields.mkeInput, data.WQ234.mke)
             .setValue(selectors.fields.oriInput, data.WQ234.ori)
@@ -130,9 +130,9 @@ module.exports = {
     "WQ257": browser => {
         browser
             .click(selectors.buttons.menuIcon)
-            .waitForElementVisible(selectors.buttons.modifyOption, 1000)
+            .waitForElementVisible(selectors.buttons.modifyOption, 3000)
             .click(selectors.buttons.modifyOption)
-            .waitForElementVisible(selectors.fields.widInput, 1000)
+            .waitForElementVisible(selectors.fields.widInput, 3000)
             .click(selectors.fields.widInput)
             .setValue(selectors.fields.widInput, data.WQ257.wid)
             .setValue(selectors.fields.hdrInput, data.WQ257.hdr)
@@ -169,9 +169,9 @@ module.exports = {
     "WQ261": browser => {
         browser
             .click(selectors.buttons.menuIcon)
-            .waitForElementVisible(selectors.buttons.cancelOption, 1000)
+            .waitForElementVisible(selectors.buttons.cancelOption, 3000)
             .click(selectors.buttons.cancelOption)
-            .waitForElementVisible(selectors.fields.widInput, 1000)
+            .waitForElementVisible(selectors.fields.widInput, 3000)
             .click(selectors.fields.widInput)
             .setValue(selectors.fields.widInput, data.WQ261.wid)
             .setValue(selectors.fields.resInput, data.WQ261.res)
@@ -182,9 +182,9 @@ module.exports = {
     "WQ227": browser => {
         browser
             .click(selectors.buttons.menuIcon)
-            .waitForElementVisible(selectors.buttons.enterOption, 1000)
+            .waitForElementVisible(selectors.buttons.enterOption, 3000)
             .click(selectors.buttons.enterOption)
-            .waitForElementVisible(selectors.fields.hdrInput, 1000)
+            .waitForElementVisible(selectors.fields.hdrInput, 3000)
             .setValue(selectors.fields.hdrInput, data.WQ227.hdr)
             .setValue(selectors.fields.mkeInput, data.WQ227.mke)
             .setValue(selectors.fields.oriInput, data.WQ227.oai)
@@ -220,7 +220,7 @@ module.exports = {
     "WQ250": browser => {
         browser
             .click(selectors.buttons.menuIcon)
-            .waitForElementVisible(selectors.buttons.modifyOption, 1000)
+            .waitForElementVisible(selectors.buttons.modifyOption, 3000)
             .click(selectors.buttons.modifyOption)
             .waitForElementVisible(selectors.fields.widInput, 3000)
             .setValue(selectors.fields.widInput, data.WQ250.wid)
@@ -259,9 +259,9 @@ module.exports = {
     "WQ260": browser => {
         browser
             .click(selectors.buttons.menuIcon)
-            .waitForElementVisible(selectors.buttons.cancelOption, 1000)
+            .waitForElementVisible(selectors.buttons.cancelOption, 3000)
             .click(selectors.buttons.cancelOption)
-            .waitForElementVisible(selectors.fields.widInput, 1000)
+            .waitForElementVisible(selectors.fields.widInput, 3000)
             .click(selectors.fields.widInput)
             .setValue(selectors.fields.widInput, data.WQ260.wid)
             .setValue(selectors.fields.resInput, data.WQ260.res)
@@ -673,7 +673,7 @@ module.exports = {
             .setValue(selectors.fields.olsInput, data.WQ229.ols)
             .setValue(selectors.fields.oldInput, data.WQ229.old)
             .click(selectors.buttons.saveBtn)
-            .pause(5000)
+            .pause(100)
         browser.expect.element(selectors.paragrahHeadings.errorList).text.to.contain('The "Header" field should be between 9 and 19 characters long.')
         browser.expect.element(selectors.paragrahHeadings.errorList).text.to.contain('The "MKE" field must be included.')
         browser.expect.element(selectors.paragrahHeadings.errorList).text.to.contain('The "Originating Agency Identifier" field must be included.')
@@ -747,7 +747,7 @@ module.exports = {
     //         .setValue(selectors.fields.widInput, data.WQ2193.wid)
     //         // .setValue(selectors.fields.resInput, data.WQ2193.res)
     //         .click(selectors.buttons.saveBtn)
-    //         .pause(10000)
+    //         .pause(30000)
     //         .expect.element(selectors.paragrahHeadings.results).text.to.contain('The "Warrant ID" field should be 10 characters long.')
     //     browser.expect.element(selectors.paragrahHeadings.results).text.to.contain('The "Reason for Cancellation" field must be included.')
     //     browser.expect.element(selectors.paragrahHeadings.results).text.to.contain('The "Date of Cancellation" field must be included.')
