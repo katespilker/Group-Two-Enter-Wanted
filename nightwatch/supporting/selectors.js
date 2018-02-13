@@ -30,34 +30,36 @@ module.exports = {
         errorMessage: 'li[class="errorMessage"]',
         results: 'td[class="results"]',
         queryBody: 'span[name="queryBody"]',
+        validHeader: 'h4[id="validHeader"]',
+        errorList: 'ul[id="errorlist"]',
+
     },
 
-        dropDownBoxes: {
-            sexField: {
-                female: 'option[value="F"]',
-                male: 'option[value="M"]',
-                other: 'option[value="O"]',
-                unknown: 'option[value="U"]',
-            },
-            raceField: {
-                asian: 'option[value="A"]',
-                black: 'option[value="B"]',
-                hispanic: 'option[value="H"]',
-                americanIndian: 'option[value="I"]',
-                white: 'option[value="W"]',
-                unknown: 'option[value="U"]',
-
-
-            },
+    dropDownBoxes: {
+        sexField: {
+            female: 'option[value="F"]',
+            male: 'option[value="M"]',
+            other: 'option[value="O"]',
+            unknown: 'option[value="U"]',
         },
-    
+        raceField: {
+            asian: 'option[value="A"]',
+            black: 'option[value="B"]',
+            hispanic: 'option[value="H"]',
+            americanIndian: 'option[value="I"]',
+            white: 'option[value="W"]',
+            unknown: 'option[value="U"]',
+
+        },
+    },
+
     fields: {
         hdrInput: 'input[name="hdrInput"]',
         mkeInput: 'input[name="mkeInput"]',
         oriInput: 'input[name="oriInput"]',
         namInput: 'input[name="namInput"]',
-        sexInput: 'input[name="sexInput"]',
-        racInput: 'input[name="racInput"]',
+        sexInput: 'select[name="sexInput"]',
+        racInput: 'select[name="racInput"]',
         hgtInput: 'input[name="hgtInput"]',
         wgtInput: 'input[name="wgtInput"]',
         haiInput: 'input[name="haiInput"]',
@@ -87,5 +89,4 @@ module.exports = {
 
 
     },
-
 }
